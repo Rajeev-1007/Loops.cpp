@@ -5,7 +5,8 @@ Aim: To study and implement C++ decision making statements Loops
 
 Software used: VS Code.
 
-Theory: Loops in C++ are fundamental control structures used to execute a block of code repeatedly based on a condition. They enhance efficiency by reducing code redundancy and enabling dynamic runtime behavior. C++ supports three primary types of loops: for, while, and do-while.
+Theory: 
+Loops in C++ are fundamental control structures used to execute a block of code repeatedly based on a condition. They enhance efficiency by reducing code redundancy and enabling dynamic runtime behavior. C++ supports three primary types of loops: for, while, and do-while.
 - The for loop is ideal for counter-controlled iterations, where the number of repetitions is known. Its syntax includes initialization, condition, and update expressions, making it compact and readable for linear traversals, such as array indexing.
 
 Syntax:
@@ -30,3 +31,7 @@ Syntax:
 
     
 Loops may contain nested structures, break and continue statements for enhanced flow control, and are commonly paired with conditional statements to create complex decision logic. Mastery of loops is essential for solving problems related to iteration, searching, pattern generation, and data processing.
+
+Conclusion: 
+Loops in C++ are the backbone of iterative logic, enabling efficient repetition and dynamic control over execution flow. Mastering for, while, and do-while loops—along with control statements like break and continue—is crucial for writing optimized, readable code in both beginner tasks and advanced algorithmic solutions.
+
