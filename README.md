@@ -52,7 +52,22 @@ V) Display results
   - Calculated average
   - Minimum value
   - Maximum value
+  
 Vi) End program
+
+2) Algorithm of hourglass pattern.
+  i) Upper Inverted Pyramid
+    - Initialize variable n = 5 for number of rows.
+    - Loop from i = 0 to n - 1:
+    - Print i spaces.
+    - Print 2*(n - i) - 1 stars.
+    - Move to next line.
+   ii)Lower Upright Pyramid
+    - Loop from i = 1 to n:
+    - Print n - i spaces.
+    - Print 2*i - 1 stars.
+    - Move to next line.
+
 
 
 Conclusion: 
