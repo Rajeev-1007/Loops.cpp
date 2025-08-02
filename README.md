@@ -60,7 +60,25 @@ iV) Inside the inner loop
 V) Move to next line after inner loop ends
 Vi) End program
 
-3) Algorithm of
+3) Algorithm of password code.
+ i) Initialize the correct password
+  - Set password = "Rajeev"
+ii) Prompt the user for input
+  - Display "Enter password: "
+  - Accept user input into user_password
+iii) Start an infinite loop (while(true)):
+- Compare user input with actual password
+ - If user_password != password
+   - Display "Incorrect Password."
+   - Prompt again with "Enter password: "
+   - Accept new input into user_password
+- Else:
+   - Display "System is unlocked"
+   - Use break to exit the loop
+iV) Program ends.
+
+4) Algorithm of
+
 
 
 
