@@ -32,30 +32,9 @@ Syntax:
     
 Loops may contain nested structures, break and continue statements for enhanced flow control, and are commonly paired with conditional statements to create complex decision logic. Mastery of loops is essential for solving problems related to iteration, searching, pattern generation, and data processing.
 
-# Algorithms: 
-i) Initialize the array
-- Define an integer array numbers[] = {10, 20, 30, 40, 50} with n = 5.
-ii) Setup variables
-- Initialize sum = 0 to store total sum of elements.
-- Set min_val and max_val to first array element numbers[0].
-iii) Traverse the array
-- Loop through array elements from index 0 to n-1.
-- Add each element to sum.
-- If current element is less than min_val, update min_val.
-- If current element is greater than max_val, update max_val.
-iV) Calculate average
-- Use static_cast<double>(sum) / n to compute average as a float.
-V) Display results
-- Print all array elements, formatted with commas.
-- Output:
-  - Total sum
-  - Calculated average
-  - Minimum value
-  - Maximum value
-  
-Vi) End program
+# Algorithms:
 
-2) Algorithm of hourglass pattern.
+1) Algorithm of hourglass pattern.
   i) Upper Inverted Pyramid
     - Initialize variable n = 5 for number of rows.
     - Loop from i = 0 to n - 1:
@@ -67,6 +46,24 @@ Vi) End program
     - Print n - i spaces.
     - Print 2*i - 1 stars.
     - Move to next line.
+  
+2) Algorithm of alphabet pattern
+ i) Initialize a character variable
+  - Set n = 'a', which will hold the current character to be printed.
+ii) Loop through rows
+ - Use i from 1 to 4 (inclusive), representing each row.
+iii) Nested loop for columns
+- For each row i, run an inner loop j from 1 to i, to print i characters.
+iV) Inside the inner loop
+- Print the current value of n.
+- Increment n to move to the next alphabet character.
+V) Move to next line after inner loop ends
+Vi) End program
+
+3) Algorithm of
+
+
+
 
 
 
