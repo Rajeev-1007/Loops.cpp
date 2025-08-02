@@ -77,11 +77,19 @@ iii) Start an infinite loop (while(true)):
    - Use break to exit the loop
 iV) Program ends.
 
-4) Algorithm of
-
-
-
-
+4) Algorithm of starpattern 1.
+ i) Initialize variables
+   - Declare two integer variables i, j
+   - Set n = 5 (number of rows)
+ii) Loop through rows
+   - Use outer loop: i from 1 to n
+     - Represents current row number
+iii) Loop through columns
+   - For each row i, run inner loop j from 1 to i
+    - Print "*" without newline each time (side by side)
+iV) Move to next line
+   - After printing i stars, print newline using cout << endl
+V) Repeat until all rows printed
 
 
 
