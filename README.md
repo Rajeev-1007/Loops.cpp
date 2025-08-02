@@ -36,17 +36,20 @@ Loops may contain nested structures, break and continue statements for enhanced 
 
 1) Algorithm of hourglass pattern.
  
-  i) Upper Inverted Pyramid
-    - Initialize variable n = 5 for number of rows.
-    - Loop from i = 0 to n - 1:
-    - Print i spaces.
-    - Print 2*(n - i) - 1 stars.
-    - Move to next line.
-   ii)Lower Upright Pyramid
-    - Loop from i = 1 to n:
-    - Print n - i spaces.
-    - Print 2*i - 1 stars.
-    - Move to next line.
+i) Upper Inverted Pyramid
+
+- Initialize variable n = 5 for number of rows.
+- Loop from i = 0 to n - 1:
+- Print i spaces.
+- Print 2*(n - i) - 1 stars.
+- Move to next line.
+- 
+ii)Lower Upright Pyramid
+
+- Loop from i = 1 to n:
+- Print n - i spaces.
+- Print 2*i - 1 stars.
+- Move to next line.
   
 2) Algorithm of alphabet pattern
 
