@@ -35,6 +35,7 @@ Loops may contain nested structures, break and continue statements for enhanced 
 # Algorithms:
 
 1) Algorithm of hourglass pattern.
+ 
   i) Upper Inverted Pyramid
     - Initialize variable n = 5 for number of rows.
     - Loop from i = 0 to n - 1:
@@ -48,6 +49,7 @@ Loops may contain nested structures, break and continue statements for enhanced 
     - Move to next line.
   
 2) Algorithm of alphabet pattern
+
  i) Initialize a character variable
   - Set n = 'a', which will hold the current character to be printed.
 ii) Loop through rows
@@ -61,6 +63,7 @@ V) Move to next line after inner loop ends
 Vi) End program
 
 3) Algorithm of password code.
+
  i) Initialize the correct password
   - Set password = "Rajeev"
 ii) Prompt the user for input
@@ -78,6 +81,7 @@ iii) Start an infinite loop (while(true)):
 iV) Program ends.
 
 4) Algorithm of starpattern 1.
+
  i) Initialize variables
    - Declare two integer variables i, j
    - Set n = 5 (number of rows)
